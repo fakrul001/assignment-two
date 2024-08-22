@@ -174,7 +174,7 @@ nav{
 }
 
 .workout{
-    background: rgba(48, 48, 48, 0.6);
+    background: rgba(92, 92, 92, 0.4);
     backdrop-filter: blur(5px);
     border-radius: 10px;
     max-width: 58%;
@@ -241,6 +241,61 @@ nav{
     padding: 10px;
     text-align: center;
 }
+
+
+/* Running section starts*/
+.running{
+    background-color: #000000;
+    padding-top: 40px;
+    padding-bottom: 80px;
+}
+
+.running-container{
+    background-color: #3e3e3e;
+    border-radius: 15px;
+    margin: 0 auto;
+    padding: 30px 30px 50px 60px;
+    gap: 40px;
+}
+
+.running-content{
+    max-width: 40%;
+}
+
+
+.running-title{
+    padding-top: 20px;
+    font-size: 4rem;
+    margin-bottom: 15px;
+}
+
+.running-description{
+    margin-bottom: 30px;
+}
+
+.btn-join-text{
+    font-size: 1.5rem;
+    padding: 10px 70px;
+    background-color: #E6533C;
+    border: none;
+    border-radius: 20px;
+    
+}
+
+.running-pic-container{
+    width: 100%;
+    justify-content: end;
+}
+
+.running-pic{
+    width: 70%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
 
 
 
@@ -313,12 +368,16 @@ nav{
         font-size: 1.125rem;
     }
 
+    .features-pic{
+        width: 100%;
+        margin-top: 20px;
+    }
+
     /* tutorial part */
     .tutorial{
-        max-width: 45%;
-        max-height: 45%;
+        max-width: 70%;
+        max-height: 50%;
         padding: 20px 10px;
-        left: 10px;
     }
 
     .video-text{
@@ -331,10 +390,9 @@ nav{
 
     /* workout video part */
     .workout{
-        max-width: 45%;
+        max-width: 70%;
         max-height: 45%;
         padding: 20px 10px;
-        right: 15px;
         top: 40px;
     }
 
@@ -357,6 +415,34 @@ nav{
 
     .habit-list-content{
         flex-direction: column;
+    }
+
+
+    /* Running section start */
+    .running{
+        padding: 40px 20px;
+    }
+    .running-container{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .running-content{
+        max-width: 100%;
+    }
+
+    .running-title{
+        font-size: 2.5rem;
+    }
+
+    .btn-join-text{
+        font-size: 1.5rem;
+        padding: 10px 70px;
+        width: 100%;    
+    }
+
+    .running-pic{
+        width: 100%;
     }
 
 }
