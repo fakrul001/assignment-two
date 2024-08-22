@@ -241,3 +241,122 @@ nav{
     padding: 10px;
     text-align: center;
 }
+
+
+
+/* Responsive section */
+
+/* small device */
+@media screen and (max-width: 576px) {
+    /* Header section start */
+    
+    /* navbar */
+    nav{
+        padding-top: 40px;
+    }
+    
+    .logo{
+        margin-left: 20px;
+    }
+
+    .nav-items-container{
+        justify-content: end;
+    }
+
+    .container{
+        max-width: 100%;
+     }
+
+    .nav-items{
+        display: none;
+    }
+
+    .bars{
+        visibility: visible;
+        margin-right: 20px;
+    }
+
+    /* banner section start */
+
+    .banner{
+        flex-direction: column;
+        margin: 20px auto 0;
+    }
+
+    .banner-content{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .banner-title{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .banner-description{
+        font-size: 1rem;
+    }
+
+    .btn-join{
+        background-color: #E6533C;
+        padding: 20px;
+        border-radius: 40px;
+        margin-right: 20px;
+    }
+
+    .btn-download{
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    .btn-text{
+        font-size: 1.125rem;
+    }
+
+    /* tutorial part */
+    .tutorial{
+        max-width: 45%;
+        max-height: 45%;
+        padding: 20px 10px;
+        left: 10px;
+    }
+
+    .video-text{
+        font-size: 1.2rem
+    }
+    
+    .video-description{
+        font-size: 0.8rem;
+    }
+
+    /* workout video part */
+    .workout{
+        max-width: 45%;
+        max-height: 45%;
+        padding: 20px 10px;
+        right: 15px;
+        top: 40px;
+    }
+
+
+    /* Habit section start*/
+
+    .habit-content{
+        padding: 0 20px;
+    }
+
+    .habit-main-title{
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .habit-main-description{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .habit-list-content{
+        flex-direction: column;
+    }
+
+}
