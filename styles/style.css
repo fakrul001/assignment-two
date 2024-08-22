@@ -136,6 +136,7 @@ nav{
 
 .features{
     position:  relative;
+    max-width: 60%;
 }
 
 .tutorial{
@@ -187,4 +188,56 @@ nav{
 .workout-video-text{
     font-size: 2rem;
     font-weight: 900;
+}
+
+
+/* Habit section start */
+.habit{
+    background-color: #000000;
+}
+
+.habit-content{
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.habit-info{
+    text-align: center;
+}
+
+.habit-main-title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.habit-list-content{
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.habit-pic{
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+
+.habit-feature{
+    flex: 1;
+}
+
+.habit-list-info{
+    text-align: center;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.habit-description{
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
 }
