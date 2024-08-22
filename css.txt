@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
+
+/* font-family: "Inter", sans-serif; */
+
+/* font-family: 'Miama', sans-serif; */
+
+/* All shared style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+.container{
+    width: 1140px;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: space-between;
+}
+
+.items-center{
+    align-items: center;
+}
+
+.bg-orange{
+    color: #E6533C;
+}
+
+.text-grey{
+    color: gray;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-around{
+    justify-content: space-around;
+}
+
+.text-white{
+    color: #ffffff;
+}
+
+/* Header section start */
+
+/* navbar */
+header{
+    background-image: linear-gradient(to bottom, #000000, #2b2b2b, #525252,  #3e3e3e, #2b2b2b, #191919, #000000);
+}
+
+nav{
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.logo{
+    font-size: 2.6em;
+    font-style: italic;
+    font-weight: 800;
+}
+
+.nav-items-container{
+    width: 25%;
+}
+
+.nav-items{
+    list-style: none;
+    border: 2px solid #ffffff1a;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.nav-items li{
+    margin-right: 20px;
+}
+
+.nav-items li:first-child, .btn-join{
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 25px;
+}
+
+.nav-items li> a{
+    text-decoration: none;
+}
+
+.bars{
+    visibility: hidden;
+}
+
+
+/* banner section start */
+.banner{
+    margin: 30px auto 0;
+}
+
+.banner-content{
+    max-width: 40%;
+}
+
+.banner-title{
+    font-size: 4.5rem;
+    line-height: 4.5rem;
+    font-weight: 900;
+}
+
+.banner-description{
+    font-size: 1em;
+    margin: 20px 0;
+}
+
+.curve-text{
+    font-family: 'Miama', sans-serif;
+    font-size: 6rem;
+    font-weight: 500;
+}
+
+.btn-join{
+    border: none;
+    margin-right: 20px;
+}
+
+.btn-download{
+    border: 2px solid #ffffff1a;
+    padding: 8px 20px;
+    border-radius: 25px;
+    background-color: transparent;
+}
+
+.features{
+    position:  relative;
+}
+
+.tutorial{
+    background: rgba(48, 48, 48, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    max-width: 55%;
+    max-height: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: -60px;
+    gap: 10px;
+}
+
+.circle{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    border-radius: 50%;
+}
+
+.video-logo{
+    margin: auto;
+}
+
+.video-text{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.video-description{
+    font-size: 1rem;
+}
+
+.workout{
+    background: rgba(48, 48, 48, 0.6);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    max-width: 58%;
+    max-height: 55%;
+    padding: 20px;
+    position: absolute;
+    top: 120px;
+    right: -50px;
+}
+
+.workout-video-text{
+    font-size: 2rem;
+    font-weight: 900;
+}
+
+
+/* Habit section start */
+.habit{
+    background-color: #000000;
+}
+
+.habit-content{
+    padding-top: 100px;
+    margin: 0 auto;
+}
+
+.habit-info{
+    text-align: center;
+}
+
+.habit-main-title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    margin: 15px;
+}
+
+.habit-list-content{
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.habit-pic{
+    max-width: 100%;
+    margin: 15px auto;
+    border-radius: 50%;
+}
+
+.habit-feature{
+    flex: 1;
+}
+
+.habit-list-info{
+    text-align: center;
+}
+
+.habit-title{
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.habit-description{
+    font-size: 0.8rem;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+
+/* Responsive section */
+
+/* small device */
+@media screen and (max-width: 576px) {
+    /* Header section start */
+    
+    /* navbar */
+    nav{
+        padding-top: 40px;
+    }
+    
+    .logo{
+        margin-left: 20px;
+    }
+
+    .nav-items-container{
+        justify-content: end;
+    }
+
+    .container{
+        max-width: 100%;
+     }
+
+    .nav-items{
+        display: none;
+    }
+
+    .bars{
+        visibility: visible;
+        margin-right: 20px;
+    }
+
+    /* banner section start */
+
+    .banner{
+        flex-direction: column;
+        margin: 20px auto 0;
+    }
+
+    .banner-content{
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .banner-title{
+        font-size: 3rem;
+        line-height: 3rem;
+    }
+
+    .banner-description{
+        font-size: 1rem;
+    }
+
+    .btn-join{
+        background-color: #E6533C;
+        padding: 20px;
+        border-radius: 40px;
+        margin-right: 20px;
+    }
+
+    .btn-download{
+        padding: 20px;
+        border-radius: 40px;
+    }
+
+    .btn-text{
+        font-size: 1.125rem;
+    }
+
+    /* tutorial part */
+    .tutorial{
+        max-width: 45%;
+        max-height: 45%;
+        padding: 20px 10px;
+        left: 10px;
+    }
+
+    .video-text{
+        font-size: 1.2rem
+    }
+    
+    .video-description{
+        font-size: 0.8rem;
+    }
+
+    /* workout video part */
+    .workout{
+        max-width: 45%;
+        max-height: 45%;
+        padding: 20px 10px;
+        right: 15px;
+        top: 40px;
+    }
+
+
+    /* Habit section start*/
+
+    .habit-content{
+        padding: 0 20px;
+    }
+
+    .habit-main-title{
+        margin: 0;
+        font-size: 2rem;
+    }
+
+    .habit-main-description{
+        font-size: 0.8rem;
+        margin-top: 10px;
+    }
+
+    .habit-list-content{
+        flex-direction: column;
+    }
+
+}
