@@ -324,7 +324,7 @@ nav{
     padding: 50px 0;
 }
 
-.calculator-chart{
+.calculator-container{
     margin: 0 auto;
 }
 
@@ -528,6 +528,26 @@ nav{
 
 
     /* BMI Calculation section */
+    .calculator-content{
+        width: 100%;
+        padding: 0 20px;
+    }
 
-    
+    .calculator-description{
+        font-size: 1rem;
+    }
+
+    .calculator-container{
+        flex-direction: column;
+        padding-left: 20px;
+    }
+
+    .chart-table{
+        margin-bottom: 20px;
+    }
+
+    .calculation-container{
+        width: 100%;
+        padding-right: 20px;
+    }
 }
