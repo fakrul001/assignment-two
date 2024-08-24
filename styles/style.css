@@ -392,7 +392,6 @@ td {
 
 .team{
     background: black;
-    /* height: 100vh; */
 }
 
 .team-content{
@@ -413,11 +412,11 @@ td {
 
 .team-members-container{
   background-color: #3e3e3e;
-  padding: 20px 15px 20px 25px;
+  padding: 20px;
   margin: 0 auto;
   border-radius: 15px;
   grid-template-columns: repeat(3, 1fr);
-  column-gap: 8px;
+  column-gap: 15px;
   row-gap: 15px;
 }
 
@@ -434,7 +433,7 @@ td {
 }
 
 .member img{
-  width: 350px;
+  width: 100%;
   height: 280px;
   border-radius: 15px;
 }
@@ -608,4 +607,15 @@ td {
     width: 100%;
     padding-right: 20px;
   }
+
+
+  /* Team section */
+  .team{
+    padding: 20px;
+  }
+
+  .team-members-container{
+    grid-template-columns: repeat(1, 1fr);
+  }
+
 }
