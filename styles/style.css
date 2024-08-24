@@ -53,16 +53,14 @@
 
 /* navbar */
 header {
-  background-image: linear-gradient(
-    to bottom,
-    #000000,
-    #2b2b2b,
-    #525252,
-    #3e3e3e,
-    #2b2b2b,
-    #191919,
-    #000000
-  );
+  background-image: linear-gradient(to bottom,
+      #000000,
+      #2b2b2b,
+      #525252,
+      #3e3e3e,
+      #2b2b2b,
+      #191919,
+      #000000);
 }
 
 nav {
@@ -99,7 +97,7 @@ nav {
   border-radius: 25px;
 }
 
-.nav-items li > a {
+.nav-items li>a {
   text-decoration: none;
 }
 
@@ -377,7 +375,7 @@ td {
   padding: 20px;
 }
 
-.calculation-info > div {
+.calculation-info>div {
   background-color: #3e3e3e;
   border: none;
   border-radius: 10px;
@@ -390,27 +388,28 @@ td {
 
 /* Team section start */
 
-.team{
-    background: black;
+.team {
+  background: black;
+  padding-bottom: 70px;
 }
 
-.team-content{
-    text-align: center;
-    margin-bottom: 30px;
+.team-content {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-.team-title{
-    font-size: 2.8rem;
-    margin-bottom: 10px;
+.team-title {
+  font-size: 2.8rem;
+  margin-bottom: 10px;
 }
 
-.team-description{
-    padding-bottom: 30px;
+.team-description {
+  padding-bottom: 30px;
 }
 
 /* members */
 
-.team-members-container{
+.team-members-container {
   background-color: #3e3e3e;
   padding: 20px;
   margin: 0 auto;
@@ -420,24 +419,198 @@ td {
   row-gap: 15px;
 }
 
-.member{
+.member {
   position: relative;
   width: 100%;
   margin: 0 auto;
 }
 
-.member > .member-info{
+.member>.member-info {
   position: absolute;
   bottom: 20px;
   left: 15px;
 }
 
-.member img{
+.member img {
   width: 100%;
   height: 280px;
   border-radius: 15px;
 }
 
+
+/* Membership section */
+
+.membership {
+  background-color: black;
+  padding: 0 20px;
+  height: 600px;
+}
+
+.membership-container {
+  margin: 0 auto;
+}
+
+.membership-content {
+  text-align: center;
+}
+
+.membership-title {
+  font-size: 3rem;
+  margin-bottom: 15px;
+}
+
+.membership-description {
+  padding-bottom: 20px;
+}
+
+.offer {
+  margin: 0 auto;
+  padding: 20px 30px 80px;
+  gap: 30px;
+}
+
+.plan {
+  width: 30%;
+  height: 350px;
+  padding: 20px;
+  background-color: #191919;
+  border: 2px solid #e6533c;
+  border-radius: 15px;
+  transition: width 1s, height 1s, border 1s ease-in-out;
+}
+
+.plan-special {
+  width: 40%;
+  height: 350px;
+  padding: 20px;
+  background-color: #191919;
+  border: 2px solid #e6533c;
+  border-radius: 15px;
+  transition: width 1s, height 1s, border 1s ease-in-out;
+}
+
+.plan-title {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.plan-rate {
+  margin: 30px 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.price {
+  font-size: 3rem;
+  color: #e6533c;
+  margin-left: 10px;
+}
+
+.benefit {
+  margin-top: 20px;
+}
+
+.benefit li {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 0.8rem;
+}
+
+.plan-special-rate {
+  margin: 20px 0;
+  font-size: 2rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.year {
+  color: #e6533c;
+  font-size: 1.2rem;
+  font-weight: 800;
+}
+
+.special-price {
+  font-size: 4rem;
+  color: #e6533c;
+  margin-left: 10px;
+}
+
+.special-benefit {
+  margin-top: 10px;
+}
+
+.special-benefit li {
+  margin-top: 10px;
+  margin-left: 15px;
+  font-size: 1rem;
+}
+
+.plan:hover {
+  width: 32%;
+  height: 370px;
+  padding: 20px;
+  border: 2px solid steelblue;
+  border-radius: 15px;
+}
+
+.plan-special:hover {
+  width: 42%;
+  height: 400px;
+  padding: 20px;
+  background-color: #191919;
+  border: 2px solid plum;
+  border-radius: 15px;
+}
+
+
+/* Footer section */
+
+.footer {
+  background-color: #3e3e3e;
+  padding: 40px;
+}
+
+.footer-container {
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.footer-content {
+  width: 40%;
+}
+
+.footer-logo {
+  font-size: 4rem;
+  font-style: italic;
+  color: #e6533c;
+  margin-bottom: 20px;
+}
+
+.footer-text {
+  font-size: 1.125rem;
+}
+
+.footer-title {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.links>p {
+  font-size: 1.125rem;
+  margin-bottom: 20px;
+}
+
+.h-line {
+  border: 1px solid #525252;
+  margin: 0 auto;
+}
+
+.ownership {
+  text-align: center;
+  margin-top: 20px;
+}
 
 
 /* Responsive section */
@@ -561,6 +734,7 @@ td {
   .running {
     padding: 40px 20px;
   }
+
   .running-container {
     flex-direction: column;
     padding: 20px;
@@ -610,12 +784,77 @@ td {
 
 
   /* Team section */
-  .team{
+  .team {
     padding: 20px;
   }
 
-  .team-members-container{
+  .team-members-container {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  /* Membership section */
+  .membership {
+    height: 100%;
+  }
+
+  .offer {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  .plan {
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+    border-radius: 40px;
+    transition: width 1s, height 1s, border-radius 1s;
+  }
+
+  .plan-special {
+    width: 90%;
+    height: 280px;
+    margin: 0 auto;
+    border-radius: 40px;
+    transition: width 1s, height 1s, border-radius 1s;
+  }
+
+  .plan-rate,
+  .plan-special-rate {
+    margin: 10px 0;
+  }
+
+  .special-price {
+    font-size: 3rem;
+  }
+
+  .special-benefit li {
+    margin-top: 10px;
+    font-size: 0.8rem;
+  }
+
+  .plan:hover,
+  .plan-special:hover {
+    width: 100%;
+    height: 280px;
+    border-radius: 15px;
+  }
+
+  /* footer section */
+  .footer {
+    padding: 20px;
+  }
+
+  .footer-container {
+    flex-direction: column;
+  }
+
+  .footer-content,
+  .link-info {
+    width: 100%;
+  }
+
+  .footer-text {
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
 }

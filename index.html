@@ -1,314 +1,385 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Fitness</title>
-    <link rel="stylesheet" href="styles/style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
-  </head>
-  <body>
-    <!-- header section start -->
-    <header>
-      <!-- navbar -->
-      <nav class="container d-flex items-center justify-center">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fitness</title>
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+</head>
+
+<body>
+  <!-- header section start -->
+  <header>
+    <!-- navbar -->
+    <nav class="container d-flex items-center justify-center">
+      <div>
+        <h3 class="logo">Empower</h3>
+      </div>
+      <div class="nav-items-container d-flex justify-center items-center">
+        <ul class="nav-items d-flex justify-between items-center">
+          <li><a class="text-white" href="#">Home</a></li>
+          <li><a class="text-white" href="#">Service</a></li>
+          <li><a class="text-white" href="#">Contact</a></li>
+          <li><a class="text-white" href="#">About</a></li>
+        </ul>
+        <span class="bars text-white"><i class="fa-solid fa-bars"></i></span>
+      </div>
+    </nav>
+
+    <!-- Banner section -->
+    <div class="banner container d-flex justify-between items-center">
+      <div class="banner-content">
+        <h1 class="banner-title text-white">
+          Get body in <span class="curve-text">shape</span> & stay healthy
+        </h1>
+        <p class="banner-description text-grey">
+          Achieve your fitness goals and maintain your well-being with
+          effective workouts and balanced nutrition. Get your body in shape
+          and stay healthy with a tailored approach to fitness and wellness.
+        </p>
+        <button class="btn-join text-white">
+          <span class="btn-text">Join Club Now!</span>
+        </button>
+        <button class="btn-download text-white">
+          <span class="btn-text">Download App</span>
+        </button>
+      </div>
+
+      <div class="features">
+        <!-- Tutorial part-->
         <div>
-          <h3 class="logo">Empower</h3>
+          <img class="features-pic" src="images/Img2.png" alt="" />
         </div>
-        <div class="nav-items-container d-flex justify-center items-center">
-          <ul class="nav-items d-flex justify-between items-center">
-            <li><a class="text-white" href="#">Home</a></li>
-            <li><a class="text-white" href="#">Service</a></li>
-            <li><a class="text-white" href="#">Contact</a></li>
-            <li><a class="text-white" href="#">About</a></li>
-          </ul>
-          <span class="bars text-white"><i class="fa-solid fa-bars"></i></span>
+        <div class="tutorial d-flex justify-around items-center">
+          <div class="circle d-flex items-center">
+            <i class="fa-solid fa-play text-white video-logo"></i>
+          </div>
+          <div class="text-white">
+            <p class="video-text">350+</p>
+            <p class="video-description text-grey">Video tutorial</p>
+          </div>
         </div>
-      </nav>
 
-      <!-- Banner section -->
-      <div class="banner container d-flex justify-between items-center">
-        <div class="banner-content">
-          <h1 class="banner-title text-white">
-            Get body in <span class="curve-text">shape</span> & stay healthy
-          </h1>
-          <p class="banner-description text-grey">
-            Achieve your fitness goals and maintain your well-being with
-            effective workouts and balanced nutrition. Get your body in shape
-            and stay healthy with a tailored approach to fitness and wellness.
+        <!-- workout video part -->
+        <div class="workout text-white">
+          <p class="workout-video-text">500+</p>
+          <p class="video-description text-grey">Free Workout Videos</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Habit section -->
+    <section class="habit">
+      <div class="container habit-content">
+        <div class="habit-info">
+          <h3 class="habit-main-title text-white">Change Your Habit</h3>
+          <p class="habit-main-description text-grey">
+            Changing habits requires consistent effort and patience, as small,
+            intentional actions over time lead to lasting transformation.
           </p>
-          <button class="btn-join text-white">
-            <span class="btn-text">Join Club Now!</span>
-          </button>
-          <button class="btn-download text-white">
-            <span class="btn-text">Download App</span>
-          </button>
         </div>
 
-        <div class="features">
-          <!-- Tutorial part-->
-          <div>
-            <img class="features-pic" src="images/Img2.png" alt="" />
-          </div>
-          <div class="tutorial d-flex justify-around items-center">
-            <div class="circle d-flex items-center">
-              <i class="fa-solid fa-play text-white video-logo"></i>
+        <!-- habit list -->
+        <div class="habit-list">
+          <div class="habit-list-content d-flex">
+            <div class="habit-feature">
+              <div>
+                <img class="d-flex justify-center habit-pic" src="images/image-2.png" alt="" />
+              </div>
+              <div class="habit-list-info">
+                <p class="habit-title text-white">Movement</p>
+                <p class="habit-description text-grey">
+                  movement energizes the body, sharpens the mind, and fuels a
+                  sense of vitality.
+                </p>
+              </div>
             </div>
-            <div class="text-white">
-              <p class="video-text">350+</p>
-              <p class="video-description text-grey">Video tutorial</p>
+            <div class="habit-feature">
+              <div>
+                <img class="d-flex justify-center habit-pic" src="images/image-3.png" alt="" />
+              </div>
+              <div class="habit-list-info">
+                <p class="habit-title text-white">Time</p>
+                <p class="habit-description text-grey">
+                  Changing habits takes time, requiring sustained commitment
+                  and gradual adjustments.
+                </p>
+              </div>
             </div>
-          </div>
-
-          <!-- workout video part -->
-          <div class="workout text-white">
-            <p class="workout-video-text">500+</p>
-            <p class="video-description text-grey">Free Workout Videos</p>
+            <div class="habit-feature">
+              <div>
+                <img class="d-flex justify-center habit-pic" src="images/image-4.png" alt="" />
+              </div>
+              <div class="habit-list-info">
+                <p class="habit-title text-white">Practice</p>
+                <p class="habit-description text-grey">
+                  Practice is the key to mastery, turning effort into
+                  expertise over time.
+                </p>
+              </div>
+            </div>
+            <div class="habit-feature">
+              <div>
+                <img class="d-flex justify-center habit-pic" src="images/image-5.png" alt="" />
+              </div>
+              <div class="habit-list-info">
+                <p class="habit-title text-white">Weight Loss</p>
+                <p class="habit-description text-grey">
+                  Weight loss is a journey of consistent healthy choices,
+                  balancing nutrition, exercise, and patience.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <main>
-      <!-- Habit section -->
-      <section class="habit">
-        <div class="container habit-content">
-          <div class="habit-info">
-            <h3 class="habit-main-title text-white">Change Your Habit</h3>
-            <p class="habit-main-description text-grey">
-              Changing habits requires consistent effort and patience, as small,
-              intentional actions over time lead to lasting transformation.
+    <!-- Running section -->
+    <section class="running">
+      <div class="container running-container d-flex justify-between">
+        <div class="running-content">
+          <h3 class="running-title text-white">Run an Extra Mile Easily</h3>
+          <p class="running-description text-grey">
+            Running the extra mile builds endurance, strengthens mental
+            resilience, and pushes your physical limits for greater fitness
+            gains.
+          </p>
+          <button class="text-white btn-join-text">Join Now</button>
+        </div>
+        <div class="running-pic-container d-flex">
+          <img class="running-pic" src="images/run.jpg" alt="a running man" />
+        </div>
+      </div>
+    </section>
+
+    <!-- BMI Calculation section -->
+    <section class="calculator">
+      <div class="calculator-content">
+        <div>
+          <h3 class="calculator-title text-white">BMI Calculator</h3>
+          <p class="calculator-description text-grey">
+            BMI calculator is a tool that estimates body fat based on height
+            and weight, helping assess whether a person is underweight, normal
+            weight, overweight, or obese.
+          </p>
+        </div>
+      </div>
+      <div class="calculator-chart-content">
+        <div class="container calculator-container d-flex justify-between">
+          <!-- BMI Chart -->
+          <div class="chart-table">
+            <h4 class="chart-title text-white">BMI Calculator Chart</h4>
+            <table class="table text-grey">
+              <tr class="table-row text-white">
+                <th>BMI</th>
+                <th>Weight Status</th>
+              </tr>
+              <tr>
+                <td>Below 18.5</td>
+                <td>Underweight</td>
+              </tr>
+              <tr>
+                <td>18.5 - 24.9</td>
+                <td>Healthy</td>
+              </tr>
+              <tr>
+                <td>25.0 - 29.9</td>
+                <td>Overweight</td>
+              </tr>
+              <tr>
+                <td>30.0 - and Above</td>
+                <td>Obese</td>
+              </tr>
+            </table>
+          </div>
+
+          <!-- BMI Calculation -->
+          <div class="calculation-container">
+            <h4 class="calculation-title text-white">Calculate Your BMI</h4>
+            <p class="calculation-description text-grey">
+              BMI calculation measures body fat by dividing a person's weight
+              by the square of their height.
             </p>
-          </div>
-
-          <!-- habit list -->
-          <div class="habit-list">
-            <div class="habit-list-content d-flex">
-              <div class="habit-feature">
-                <div>
-                  <img
-                    class="d-flex justify-center habit-pic"
-                    src="images/image-2.png"
-                    alt=""
-                  />
-                </div>
-                <div class="habit-list-info">
-                  <p class="habit-title text-white">Movement</p>
-                  <p class="habit-description text-grey">
-                    movement energizes the body, sharpens the mind, and fuels a
-                    sense of vitality.
-                  </p>
-                </div>
+            <div class="calculation-info grid text-grey">
+              <div class="d-flex items-center input">Height/cm</div>
+              <div class="d-flex items-center input">Weight/kg</div>
+              <div class="d-flex items-center input">Age</div>
+              <div class="d-flex items-center justify-between gender">
+                Gender<i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div class="habit-feature">
-                <div>
-                  <img
-                    class="d-flex justify-center habit-pic"
-                    src="images/image-3.png"
-                    alt=""
-                  />
-                </div>
-                <div class="habit-list-info">
-                  <p class="habit-title text-white">Time</p>
-                  <p class="habit-description text-grey">
-                    Changing habits takes time, requiring sustained commitment
-                    and gradual adjustments.
-                  </p>
-                </div>
-              </div>
-              <div class="habit-feature">
-                <div>
-                  <img
-                    class="d-flex justify-center habit-pic"
-                    src="images/image-4.png"
-                    alt=""
-                  />
-                </div>
-                <div class="habit-list-info">
-                  <p class="habit-title text-white">Practice</p>
-                  <p class="habit-description text-grey">
-                    Practice is the key to mastery, turning effort into
-                    expertise over time.
-                  </p>
-                </div>
-              </div>
-              <div class="habit-feature">
-                <div>
-                  <img
-                    class="d-flex justify-center habit-pic"
-                    src="images/image-5.png"
-                    alt=""
-                  />
-                </div>
-                <div class="habit-list-info">
-                  <p class="habit-title text-white">Weight Loss</p>
-                  <p class="habit-description text-grey">
-                    Weight loss is a journey of consistent healthy choices,
-                    balancing nutrition, exercise, and patience.
-                  </p>
-                </div>
+              <div class="d-flex items-center justify-between activity">
+                Select an activity factor<i class="fa-solid fa-chevron-down"></i>
               </div>
             </div>
+            <button class="btn-calculation text-white">Calculate</button>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- Running section -->
-      <section class="running">
-        <div class="container running-container d-flex justify-between">
-          <div class="running-content">
-            <h3 class="running-title text-white">Run an Extra Mile Easily</h3>
-            <p class="running-description text-grey">
-              Running the extra mile builds endurance, strengthens mental
-              resilience, and pushes your physical limits for greater fitness
-              gains.
-            </p>
-            <button class="text-white btn-join-text">Join Now</button>
-          </div>
-          <div class="running-pic-container d-flex">
-            <img class="running-pic" src="images/run.jpg" alt="a running man" />
-          </div>
+    <!-- Team section -->
+    <section class="team">
+      <div class="team-container">
+        <div class="team-content">
+          <h3 class="team-title text-white">Meet Our Team</h3>
+          <p class="team-description text-grey">
+            Our gym staff is a team of fitness experts dedicated to helping
+            you achieve your health goals.
+          </p>
         </div>
-      </section>
+      </div>
 
-      <!-- BMI Calculation section -->
-      <section class="calculator">
-        <div class="calculator-content">
-          <div>
-            <h3 class="calculator-title text-white">BMI Calculator</h3>
-            <p class="calculator-description text-grey">
-              BMI calculator is a tool that estimates body fat based on height
-              and weight, helping assess whether a person is underweight, normal
-              weight, overweight, or obese.
-            </p>
-          </div>
-        </div>
-        <div class="calculator-chart-content">
-          <div class="container calculator-container d-flex justify-between">
-            <!-- BMI Chart -->
-            <div class="chart-table">
-              <h4 class="chart-title text-white">BMI Calculator Chart</h4>
-              <table class="table text-grey">
-                <tr class="table-row text-white">
-                  <th>BMI</th>
-                  <th>Weight Status</th>
-                </tr>
-                <tr>
-                  <td>Below 18.5</td>
-                  <td>Underweight</td>
-                </tr>
-                <tr>
-                  <td>18.5 - 24.9</td>
-                  <td>Healthy</td>
-                </tr>
-                <tr>
-                  <td>25.0 - 29.9</td>
-                  <td>Overweight</td>
-                </tr>
-                <tr>
-                  <td>30.0 - and Above</td>
-                  <td>Obese</td>
-                </tr>
-              </table>
-            </div>
-
-            <!-- BMI Calculation -->
-            <div class="calculation-container">
-              <h4 class="calculation-title text-white">Calculate Your BMI</h4>
-              <p class="calculation-description text-grey">
-                BMI calculation measures body fat by dividing a person's weight
-                by the square of their height.
-              </p>
-              <div class="calculation-info grid text-grey">
-                <div class="d-flex items-center input">Height/cm</div>
-                <div class="d-flex items-center input">Weight/kg</div>
-                <div class="d-flex items-center input">Age</div>
-                <div class="d-flex items-center justify-between gender">
-                  Gender<i class="fa-solid fa-chevron-down"></i>
-                </div>
-                <div class="d-flex items-center justify-between activity">
-                  Select an activity factor<i
-                    class="fa-solid fa-chevron-down"
-                  ></i>
-                </div>
-              </div>
-              <button class="btn-calculation text-white">Calculate</button>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- Team section -->
-      <section class="team">
-        <div class="team-container">
-          <div class="team-content">
-            <h3 class="team-title text-white">Meet Our Team</h3>
-            <p class="team-description text-grey">
-              Our gym staff is a team of fitness experts dedicated to helping
-              you achieve your health goals.
-            </p>
+      <!-- Members -->
+      <div class="container team-members-container grid">
+        <!-- member one -->
+        <div class="member">
+          <img src="images/trainer1.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Jerome Bell</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
         </div>
 
-        <!-- Members -->
-        <div class="container team-members-container grid">
-          <!-- member one -->
-          <div class="member">
-            <img src="images/trainer1.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Jerome Bell</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
+        <!-- member two -->
+        <div class="member">
+          <img src="images/trainer2.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Cameron Williamson</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
+        </div>
 
-          <!-- member two -->
-          <div class="member">
-            <img src="images/trainer2.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Cameron Williamson</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
+        <!-- member three -->
+        <div class="member">
+          <img src="images/trainer3.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Darrell Steward</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
+        </div>
 
-          <!-- member three -->
-          <div class="member">
-            <img src="images/trainer3.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Darell Steward</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
+        <!-- member four -->
+        <div class="member">
+          <img src="images/trainer4.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Dianne Russell</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
+        </div>
 
-          <!-- member four -->
-          <div class="member">
-            <img src="images/trainer4.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Dianne Russell</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
+        <!-- member five -->
+        <div class="member">
+          <img src="images/trainer5.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Cody Fisher</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
+        </div>
 
-          <!-- member five -->
-          <div class="member">
-            <img src="images/trainer5.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Cody Fisher</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
+        <!-- member six -->
+        <div class="member">
+          <img src="images/trainer6.png" alt="">
+          <div class="member-info">
+            <p class="text-white member-name">Theresa webb</p>
+            <p class="text-grey designation">Trainer</p>
           </div>
+        </div>
+    </section>
 
-          <!-- member six -->
-          <div class="member">
-            <img src="images/trainer6.png" alt="">
-            <div class="member-info">
-              <p class="text-white member-name">Theresa webb</p>
-              <p class="text-grey designation">Trainer</p>
-            </div>
-          </div>
-      </section>
-    </main>
-  </body>
+    <!-- Membership section -->
+    <section class="membership">
+      <div class="container membership-container">
+        <div class="membership-content">
+          <h3 class="membership-title text-white">Get Membership</h3>
+          <p class="membership-description text-grey">Getting a membership at a fitness gym is the first step toward
+            committing to a healthier, more active lifestyle.</p>
+        </div>
+      </div>
+
+      <!-- Offer -->
+      <div class="container offer d-flex justify-between">
+        <!-- plan one -->
+        <div class="plan text-white">
+          <h3 class="plan-title">Plan One</h3>
+          <hr class="h-line">
+          <p class="plan-rate text-grey d-flex items-center">$ <span class="price">35</span></p>
+          <hr class="h-line">
+          <ul class="benefit text-grey">
+            <li><del>One</del> / Four month membership</li>
+            <li>Guidance of expert trainer</li>
+            <li>Exclusive diet Plan</li>
+            <li>Counselling session</li>
+          </ul>
+        </div>
+
+        <!-- plan two -->
+        <div class="plan-special text-white">
+          <h3 class="plan-title">Plan Two<sup>*</sup></h3>
+          <hr class="h-line">
+          <p class="plan-special-rate text-grey d-flex items-center">$ <span class="special-price">100</span></p>
+          <hr class="h-line">
+          <ul class="special-benefit text-grey">
+            <li><del>Ten month</del> / <span class="year">One</span> year membership</li>
+            <li>Guidance of expert trainer</li>
+            <li>Exclusive diet Plan</li>
+            <li>Counselling session</li>
+          </ul>
+        </div>
+
+        <!-- plan three -->
+        <div class="plan text-white">
+          <h3 class="plan-title">Plan Three</h3>
+          <hr class="h-line">
+          <p class="plan-rate text-grey d-flex items-center">$ <span class="price">35</span></p>
+          <hr class="h-line">
+          <ul class="benefit text-grey">
+            <li><del>Six</del> / Eight month membership</li>
+            <li>Guidance of expert trainer</li>
+            <li>Exclusive diet Plan</li>
+            <li>Counselling session</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container d-flex justify-between items-center">
+      <div class="footer-content">
+        <div>
+          <h3 class="footer-logo">Empower</h3>
+          <p class="footer-text text-grey">
+            Empowering physical health involves fostering strength, vitality, and confidence through consistent exercise
+            and mindful living.
+          </p>
+        </div>
+      </div>
+      <div class="link-info">
+        <h3 class="footer-title text-white">More Links</h3>
+        <div class="links text-grey">
+          <p>Home</p>
+          <p>Service</p>
+          <p>Contact</p>
+          <p>About</p>
+        </div>
+      </div>
+      <div class="link-info">
+        <h3 class="footer-title text-white">Get Started</h3>
+        <div class="links text-grey">
+          <p>Fitness</p>
+          <p>Platform</p>
+          <p>Workout Library</p>
+          <p>App Design</p>
+        </div>
+      </div>
+    </div>
+    <hr class="container h-line">
+    <p class="text-grey ownership">All right reserved @Empower 2024</p>
+  </footer>
+</body>
 </html>
